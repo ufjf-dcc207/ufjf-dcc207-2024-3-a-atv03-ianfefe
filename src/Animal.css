@@ -1,0 +1,24 @@
+.animal{
+    border: 1px solid grey;
+    border-radius: 0.5em;
+    padding: 0.5em;
+    box-shadow: 0.1em 0.1em 0.2em;
+}
+
+    .icone {
+    font-size: 4em;
+    }
+
+    .nome {
+    font-weight: 600;
+    }
+
+    .peso {
+    opacity: 0.6;
+    }  
+
+    .extincao {
+    background-color: darkred;
+    color: white;
+    min-height: 1em;
+    }
