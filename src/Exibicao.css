@@ -6,7 +6,8 @@
     padding: 1em;
     box-shadow: 0.1em 0.2em 0.2em;
         .inicio {
-            color: darkgreen
+            color: darkgreen;
+            grid-area: inicio;
         }
         .fim {
             color: darkred;
