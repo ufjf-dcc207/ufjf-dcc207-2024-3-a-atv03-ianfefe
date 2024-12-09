@@ -17,8 +17,8 @@ export default function Exibicao ({
     return (
         <div className="exibicao">
             <div className="inicio">Abertura: {inicio.toLocaleString()}</div>
-            <div className="fim">Encerramento: {fim.toLocaleString()}</div>
-            <div className="cercado">Local: {local.toLocaleString()}</div>
+            <div className="fim">Fechamento: {fim.toLocaleString()}</div>
+            <div className="cercado">Cercado: {local.toLocaleString()}</div>
             <div className="animais">{children}</div>
         </div>
     );
