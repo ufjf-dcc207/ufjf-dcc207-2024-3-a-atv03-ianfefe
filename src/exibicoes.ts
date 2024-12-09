@@ -1,5 +1,5 @@
 type ExibicaoTuplaType = [string, string, string, AnimaisTuplaType[]];
-type AnimaisTuplaType = [string, string, number, boolean];
+export type AnimaisTuplaType = [string, string, number, boolean];
 
 const EXIBICOES: ExibicaoTuplaType[] = [
     [
