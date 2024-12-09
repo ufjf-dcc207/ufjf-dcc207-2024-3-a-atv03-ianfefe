@@ -8,7 +8,7 @@ interface ExibicaoProps {
     children?: ReactNode;
 }
 
-export default function Exibicao ({
+export default function Exibicao({
     inicio,
     fim,
     local,

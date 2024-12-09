@@ -9,13 +9,13 @@ const ANIMAIS: AnimaisTuplaType[] = [
   ["🦒", "Girafa", 1200, true],
   ["🦜", "Papagaio", 0.12, false],
   ["🦩", "Flamingo", 12.0, true]
-]
+];
 
 function App() {
   const exA1: ReactNode[] = [];
   const exB2: ReactNode[] = [];
   for (let i = 0; i < ANIMAIS.length; i++) {
-    const ex = ANIMAIS[i][3]!=false?exA1:exB2
+    const ex = ANIMAIS[i][3] != false ? exA1 : exB2
     ex.push(
       <Animal
         key={ANIMAIS[i][1]}
